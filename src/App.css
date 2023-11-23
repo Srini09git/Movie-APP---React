@@ -37,3 +37,18 @@
   margin: 1rem auto;
   gap: 1rem;
 }
+
+
+
+.not-found-pic {
+  max-width: fit-content;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.movie-detail {
+  max-width: 650px;
+  padding: 16px;
+}

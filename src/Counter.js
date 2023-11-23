@@ -5,8 +5,8 @@ import Badge from '@mui/material/Badge';
 import MailIcon from '@mui/icons-material/Mail';
 
 export function Counter() {
-  let [like, setLike] = useState(10);
-  let [dislike, setdisLike] = useState(10);
+  let [like, setLike] = useState(0);
+  let [dislike, setdisLike] = useState(0);
 
   const incrementLike = () => setLike(like + 1);
   const incrementDisLike = () => setdisLike(dislike + 1)

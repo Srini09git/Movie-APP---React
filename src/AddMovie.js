@@ -41,3 +41,5 @@ export function AddMovie({ movieList, setMovieList }) {
         </div>
     );
 }
+
+export default AddMovie;
